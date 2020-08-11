@@ -22,6 +22,8 @@
 		C26721DB24E33334005AF2B5 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26721DA24E33334005AF2B5 /* Script.swift */; };
 		C26721DE24E3337F005AF2B5 /* CSSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26721DC24E3337F005AF2B5 /* CSSHelper.swift */; };
 		C26721DF24E3337F005AF2B5 /* Clean.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26721DD24E3337F005AF2B5 /* Clean.swift */; };
+		C26721E124E34887005AF2B5 /* WKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26721E024E34887005AF2B5 /* WKManager.swift */; };
+		C26721E324E34945005AF2B5 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26721E224E34944005AF2B5 /* DeviceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		C26721DA24E33334005AF2B5 /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
 		C26721DC24E3337F005AF2B5 /* CSSHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSHelper.swift; sourceTree = "<group>"; };
 		C26721DD24E3337F005AF2B5 /* Clean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clean.swift; sourceTree = "<group>"; };
+		C26721E024E34887005AF2B5 /* WKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKManager.swift; sourceTree = "<group>"; };
+		C26721E224E34944005AF2B5 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +83,14 @@
 				C26721B624E32F59005AF2B5 /* AppDelegate.swift */,
 				C26721B824E32F59005AF2B5 /* SceneDelegate.swift */,
 				C26721BA24E32F59005AF2B5 /* ViewController.swift */,
+				C26721E024E34887005AF2B5 /* WKManager.swift */,
 				C26721BC24E32F59005AF2B5 /* Main.storyboard */,
 				C26721BF24E32F5C005AF2B5 /* Assets.xcassets */,
 				C26721C124E32F5C005AF2B5 /* LaunchScreen.storyboard */,
 				C26721C424E32F5C005AF2B5 /* Info.plist */,
 				C26721D224E3316B005AF2B5 /* Client */,
 				C26721CD24E330C5005AF2B5 /* Extensions */,
+				C26721E424E34955005AF2B5 /* Managers */,
 				C26721D324E3317D005AF2B5 /* Scripts */,
 				C26721D424E331A7005AF2B5 /* WebCode */,
 			);
@@ -125,6 +131,14 @@
 				C26721DA24E33334005AF2B5 /* Script.swift */,
 			);
 			path = Scripts;
+			sourceTree = "<group>";
+		};
+		C26721E424E34955005AF2B5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C26721E224E34944005AF2B5 /* DeviceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C26721D924E33236005AF2B5 /* Music.swift in Sources */,
+				C26721E324E34945005AF2B5 /* DeviceManager.swift in Sources */,
 				C26721BB24E32F59005AF2B5 /* ViewController.swift in Sources */,
 				C26721D124E330F0005AF2B5 /* Debug.swift in Sources */,
 				C26721D724E331BD005AF2B5 /* Client.swift in Sources */,
@@ -207,6 +222,7 @@
 				C26721DF24E3337F005AF2B5 /* Clean.swift in Sources */,
 				C26721DE24E3337F005AF2B5 /* CSSHelper.swift in Sources */,
 				C26721B724E32F59005AF2B5 /* AppDelegate.swift in Sources */,
+				C26721E124E34887005AF2B5 /* WKManager.swift in Sources */,
 				C26721B924E32F59005AF2B5 /* SceneDelegate.swift in Sources */,
 				C26721D024E330F0005AF2B5 /* Extensions.swift in Sources */,
 			);

@@ -1,6 +1,6 @@
 //
 //  CSSHelper.swift
-//  Themes for Music
+//  Music
 //
 //  Created by Justin Bush on 2020-06-01.
 //
