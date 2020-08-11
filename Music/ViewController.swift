@@ -52,6 +52,22 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, UISc
         }
         Debug.log("webView didCommit")
     }
+    
+    
+    
+    
+    // MARK: Rotation Handler
+    // Device did change orientation
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        if UIDevice.current.orientation.isLandscape {
+            Debug.log("New Orientation: Landscape")
+            topConstraint.constant = WKManager.getTop(false)
+        } else {
+            Debug.log("New Orientation: Portrait")
+            topConstraint.constant = WKManager.getTop(true)
+        }
+    }
 
 
 }
