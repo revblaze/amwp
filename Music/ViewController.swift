@@ -23,6 +23,14 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, UISc
         
         initWebView()
         topConstraint.constant = 44
+        
+        // TODO: Add JS event listener
+        // Change bottom constraints based on audio "play" and "pause" event tags
+        // Look into what "ended" event means (could mean STOP, could mean next song)
+        // https://stackoverflow.com/a/36242302
+        
+        // Maybe even decisionHandler? (https://stackoverflow.com/a/55443242)
+        
     }
     
     func initWebView() {
